@@ -19,9 +19,7 @@ app.use(cors());
 
 app.get("/", (req, res, next) => {
   res.send(`<h1>This is August test </h1>
-        <h3>By Rahul Abhishek</h3>
-        <h4>FrontEnd Link: <a href="https://nodeapp-blog.herokuapp.com" target="_blank"> https://nodeapp-blog.herokuapp.com/ </a></h4>
-        `);
+        <h3>By Rahul Abhishek</h3>`);
 });
 
 app.use("/api/v1", userRouter);
